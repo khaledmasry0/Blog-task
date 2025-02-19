@@ -10,6 +10,8 @@
 
 ### `npm start` to start the react propject
 
+<hr/>
+
 ### Admin Account: `admin can delete any post or comment`
 
 ##### userName: khaled
