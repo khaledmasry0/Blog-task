@@ -1,0 +1,62 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "First Blog Post",
+      "content": "This is the content of the first post.",
+      "authorId": "1",
+      "author": "khaled",
+      "likes": [1, 2, "ec14", "1"]
+    },
+    {
+      "id": "2",
+      "title": "Second Blog Post",
+      "content": "This is another blog post example.",
+      "authorId": "2",
+      "author": "khaled",
+      "likes": [5]
+    }
+  ],
+  "comments": [
+    {
+      "postId": "1",
+      "authorId": "1",
+      "author": "khaled",
+      "text": "Great post!!",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "postId": "1",
+      "authorId": "2",
+      "author": "khaled",
+      "text": "Thanks for sharing!"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "khaled",
+      "password": "123456",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "username": "mohamed",
+      "password": "101010",
+      "role": "user"
+    },
+    {
+      "id": "434b",
+      "username": "lol",
+      "password": "lol",
+      "role": "user"
+    },
+    {
+      "id": "ec14",
+      "username": "pop",
+      "password": "pop",
+      "role": "user"
+    }
+  ]
+}
